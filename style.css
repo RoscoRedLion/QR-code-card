@@ -3,34 +3,33 @@ body {
     background-color:hsl(212, 45%, 89%);
     color: hsl(218, 44%, 22%);
     display: flex;
-    flex-direction: column; 
+    flex-direction: column; /* Allows the attribution to sit below the card */
     justify-content: center;
     align-items: center;
-    min-height: 100vh; 
+    min-height: 100vh; /* Changed from height to min-height for better scaling */
     margin: 0;
-    width: 100%; 
+    width: 100%; /* Ensure it takes full width */
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    padding: 16px; 
+    padding: 16px; /* Space inside the card */
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     text-align: center;
-    width: 90%;
-    max-width: 375px; 
+    width: 100%;
+    max-width: 375px; /* Standard card width */
 }
 
 img {
-    width: 100%; 
-    max-width: 320px;
-    height: auto;
+    width: 100%; /* Makes the image fill the container width */
     border-radius: 10px;
 }
 
 h1 {
+    font-size: 1.7rem;
     font-weight: 700;
-    margin: 16px 0 8px 0;
+    margin: 16px;
 }
 
 p {
