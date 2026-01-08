@@ -17,6 +17,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
     text-align: center;
+    width: 90%;
     max-width: 320px; /* Standard card width */
 }
 
@@ -33,3 +34,8 @@ p {
     color: hsl(220, 15%, 55%);
     margin-top: 0;
 }
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 350px; /* Example: slightly larger card for very large screens */
+  }
