@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: hsl(212, 45%, 89%);
+    background-color:hsl(212, 45%, 89%);
     color: hsl(218, 44%, 22%);
     display: flex;
     flex-direction: column; /* Allows the attribution to sit below the card */
@@ -13,7 +13,6 @@ body {
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    font-size: 13px;
     padding: 16px; /* Space inside the card */
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
@@ -26,11 +25,11 @@ img {
     max-width: 320px;
     height: auto;
     border-radius: 10px;
-
 }
 
-h1 {
-    font-size: 16px;
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: hsl(220, 15%, 55%);
+    margin-top: 0;
 }
-
-
