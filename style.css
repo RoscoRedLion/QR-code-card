@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    background-color: hsl(212, 45%, 89%);
+    background-color: hsl(0, 0%, 100%);
     font-size: 13px;
     padding: 16px; /* Space inside the card */
     border-radius: 20px;
@@ -32,4 +32,5 @@ img {
 h1 {
     font-size: 16px;
 }
+
 
